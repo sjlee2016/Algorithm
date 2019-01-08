@@ -8,9 +8,9 @@ A git repository where I solve algorithm problems, making myself prepared for jo
 ## Table of Contents 
 [Types of Algorithms](#types-of-algorithms)
 
-[Data Structures] (#data-structures)
+[Data Structures](#data-structures)
 
-[List OF Websites Used ] (#list-of-websites-used)
+[List OF Websites Used ](#list-of-websites-used)
 
 
 

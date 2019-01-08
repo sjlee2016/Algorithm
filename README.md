@@ -4,7 +4,12 @@ Se Jin Lee  2019 ~ 2020
 
 A git repository where I solve algorithm problems, making myself prepared for job interviews in the future ! 
 
-Categories
+
+## Table of Contents 
+[Types of Algorithms](#types-of-algorithms)
+[Data Structures ] (#data-structures)
+
+## Types of Algorithms 
 ====
 ```
 * Simple recursive algorithms

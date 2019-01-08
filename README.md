@@ -7,13 +7,14 @@ A git repository where I solve algorithm problems, making myself prepared for jo
 
 ## Table of Contents 
 [Types of Algorithms](#types-of-algorithms)
-[Data Structures ] (#data-structures)
+
+[Data Structures] (#data-structures)
+
 [List OF Websites Used ] (#list-of-websites-used)
 
 
 
 ## Types of Algorithms 
-====
 ```
 * Simple recursive algorithms
 * Backtracking algorithms
@@ -26,7 +27,6 @@ A git repository where I solve algorithm problems, making myself prepared for jo
 ```
 
 ## Data Structures 
-====
 - [ ]  Arrays & Lists
 - [ ]  Trees
 - [ ]  Graphs
@@ -34,8 +34,6 @@ A git repository where I solve algorithm problems, making myself prepared for jo
 - [ ]  Others
 
 ## List Of Websites Used
-=====
-
 [Leetcode](http://www.leetcode.com)
 
 

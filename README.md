@@ -19,6 +19,6 @@ Category
 List Of Websites Used
 =====
 ```
-[Leetcode]:http://www.leetcode.com
+[Leetcode](http://www.leetcode.com)
 
 ```

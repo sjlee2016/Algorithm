@@ -1,5 +1,6 @@
 # Algorithm
 Se Jin Lee  2019 ~ 2020 
+=
 A git repository where I solve algorithm problems, making myself prepared for job interviews in the future ! 
 
 Category

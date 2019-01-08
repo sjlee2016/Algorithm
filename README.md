@@ -4,7 +4,7 @@ Se Jin Lee  2019 ~ 2020
 
 A git repository where I solve algorithm problems, making myself prepared for job interviews in the future ! 
 
-Category
+Categories
 ====
 ```
 * Simple recursive algorithms
@@ -16,6 +16,15 @@ Category
 * Brute force algorithms
 * Randomized algorithms
 ```
+
+Data Structures 
+====
+- [ ]  Arrays & Lists
+- [ ]  Trees
+- [ ]  Graphs
+- [ ]  Hash Table
+- [ ]  Others
+
 List Of Websites Used
 =====
 

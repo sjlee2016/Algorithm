@@ -10,7 +10,7 @@ A git repository where I solve algorithm problems, making myself prepared for jo
 
 [Data Structures](#data-structures)
 
-[List OF Websites Used ](#list-of-websites-used)
+[List Of Websites Used ](#list-of-websites-used)
 
 
 
@@ -35,5 +35,6 @@ A git repository where I solve algorithm problems, making myself prepared for jo
 
 ## List Of Websites Used
 [Leetcode](http://www.leetcode.com)
+[BaekJoon](https://www.acmicpc.net)
 
 

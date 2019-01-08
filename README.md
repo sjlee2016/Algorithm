@@ -8,6 +8,9 @@ A git repository where I solve algorithm problems, making myself prepared for jo
 ## Table of Contents 
 [Types of Algorithms](#types-of-algorithms)
 [Data Structures ] (#data-structures)
+[List OF Websites Used ] (#list-of-websites-used)
+
+
 
 ## Types of Algorithms 
 ====
@@ -22,7 +25,7 @@ A git repository where I solve algorithm problems, making myself prepared for jo
 * Randomized algorithms
 ```
 
-Data Structures 
+## Data Structures 
 ====
 - [ ]  Arrays & Lists
 - [ ]  Trees
@@ -30,7 +33,7 @@ Data Structures
 - [ ]  Hash Table
 - [ ]  Others
 
-List Of Websites Used
+## List Of Websites Used
 =====
 
 [Leetcode](http://www.leetcode.com)

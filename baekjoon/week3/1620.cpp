@@ -37,27 +37,26 @@ bool isNumber(string x){
 }
 
 int main(){
-    ios_base::sync_with_stdio(true); 
-    cin.tie(NULL);
+    
     int n, m;
     string input; 
     map<string,int> dic; 
-    scanf("%d", &n); 
-    scanf("%d", &m); 
+    cin >> n; 
+    cin >> m;
     for(int i=0; i<n; i++){
-        scanf("%s",&input); 
+        cin >> input; 
         dic[input] = i+1; 
     } 
 
     for(int i=0; i<m; i++){
-        scanf("%s", &input);
+        cin >> input;
         if(!isNumber(input)){
             map<string, int>::iterator it = serachByKey(dic, input);
-            printf("%d\n", it->second);
+           cout<<it->second<<endl;
         }else {
             int n = stoi(input);
             map<string, int>::iterator it = serachByValue(dic, n);
-            cout << it->first << "\n";  
+           cout<<it->first<<endl;
         }
     }
 }

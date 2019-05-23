@@ -4,21 +4,12 @@
 #include <iterator>
 #include <stdio.h> 
 #include <regex> 
+#include <ctype.h> 
+
 using namespace std; 
 
 string str [100003] = {"",};  
 
-map<string, int>::iterator serachByKey(map<string, int> & mapOfWords, string val)
-{
-    // Iterate through all elements in std::map and search for the passed element
-    map<string, int>::iterator it = mapOfWords.begin();
-    while(it != mapOfWords.end())
-    {
-        if(it->first == val)
-        return it;
-        it++;
-    }
-}
 
 bool isNumber(string x){
     regex e ("^-?\\d+");
@@ -29,24 +20,24 @@ bool isNumber(string x){
 int main(){
     
     int n, m;
-    char * input = new char[21]; 
-    map<string,int> dic; 
+    char input [21]; 
+    map<string,int> dic1; 
+    map<int,string> dic2; 
     scanf("%d", &n);  
     scanf("%d", &m);
     for(int i=0; i<n; i++){
-        scanf("%s", &input);  
-        dic[input] = i+1; 
-        str[i+1] = input; 
+        scanf("%s", input);  
+        dic1[input] = i+1; 
+        dic2[i+1] = input; 
     } 
 
     for(int i=0; i<m; i++){
-        scanf("%s", &input);
+        scanf("%s", input);
         if(!isNumber(input)){
-            map<string, int>::iterator it = serachByKey(dic, input);
-           printf("%s\n",it->second); 
+            printf("%d\n", dic1[input]);  
         }else {
             int n = stoi(input);
-            printf("%s\n",str[n]);
+            printf("%s\n",dic2[n].c_str());
         }
     }
 }

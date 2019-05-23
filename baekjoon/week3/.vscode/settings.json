@@ -17,6 +17,7 @@
         "typeinfo": "cpp",
         "stack": "cpp",
         "iostream": "cpp",
-        "queue": "cpp"
+        "queue": "cpp",
+        "__locale": "cpp"
     }
 }

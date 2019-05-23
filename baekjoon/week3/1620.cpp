@@ -6,17 +6,7 @@
 #include <regex> 
 using namespace std; 
 
-map<string, int>::iterator serachByValue(map<string, int> & mapOfWords, int val)
-{
-    // Iterate through all elements in std::map and search for the passed element
-    map<string, int>::iterator it = mapOfWords.begin();
-    while(it != mapOfWords.end())
-    {
-        if(it->second == val)
-        return it;
-        it++;
-    }
-}
+string str [100003] = {"",};  
 
 map<string, int>::iterator serachByKey(map<string, int> & mapOfWords, string val)
 {
@@ -39,24 +29,24 @@ bool isNumber(string x){
 int main(){
     
     int n, m;
-    string input; 
+    char * input = new char[21]; 
     map<string,int> dic; 
-    cin >> n; 
-    cin >> m;
+    scanf("%d", &n);  
+    scanf("%d", &m);
     for(int i=0; i<n; i++){
-        cin >> input; 
+        scanf("%s", &input);  
         dic[input] = i+1; 
+        str[i+1] = input; 
     } 
 
     for(int i=0; i<m; i++){
-        cin >> input;
+        scanf("%s", &input);
         if(!isNumber(input)){
             map<string, int>::iterator it = serachByKey(dic, input);
-           cout<<it->second<<endl;
+           printf("%s\n",it->second); 
         }else {
             int n = stoi(input);
-            map<string, int>::iterator it = serachByValue(dic, n);
-           cout<<it->first<<endl;
+            printf("%s\n",str[n]);
         }
     }
 }
